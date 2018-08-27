@@ -1,0 +1,2 @@
+A transpiler reads code written in one language and produces the equivalent code in another.
+Browsers currently understand the older JS. therefore transpilers convert the advanced typescript or coffescript to older js.

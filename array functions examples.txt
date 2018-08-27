@@ -1,0 +1,78 @@
+var array = [25,23,22,8,7,3,0,98,99];
+array.push(87);
+10
+console.log(array)
+VM441:1 (10) [25, 23, 22, 8, 7, 3, 0, 98, 99, 87]
+undefined
+array.unshift(25);
+console.log(array);
+VM452:2 (11) [25, 25, 23, 22, 8, 7, 3, 0, 98, 99, 87]
+undefined
+array.shift(25);
+console.log(array);
+VM456:2 (10) [25, 23, 22, 8, 7, 3, 0, 98, 99, 87]
+undefined
+array.pop();
+console.log(array);
+VM465:2 (9) [25, 23, 22, 8, 7, 3, 0, 98, 99]
+undefined
+array.shift();
+console.log(array);
+VM469:2 (8) [23, 22, 8, 7, 3, 0, 98, 99]
+undefined
+array.unshift();
+console.log(array);
+VM473:2 (8) [23, 22, 8, 7, 3, 0, 98, 99]
+undefined
+array.unshift(25);
+console.log(array);
+VM474:2 (9) [25, 23, 22, 8, 7, 3, 0, 98, 99]
+undefined
+array.splice();
+console.log(array);
+VM478:2 (9) [25, 23, 22, 8, 7, 3, 0, 98, 99]
+undefined
+array.splice(0);
+console.log(array);
+VM479:2 []
+undefined
+array.unshift(25);
+console.log(array);
+VM480:2 [25]
+undefined
+var array = [25,23,22,8,7,3,0,98,99];
+array.splice(0,3,5,6);
+console.log(array);
+VM491:3 (8) [5, 6, 8, 7, 3, 0, 98, 99]
+
+arr = array.splice(0,null);
+console.log("arr "+arr);
+console.log("array "+array);
+VM531:2 arr
+VM531:3 array 5,6,7
+undefined
+var arr = array.splice(0,null);
+console.log("arr "+arr);
+console.log("array "+array);
+VM534:2 arr
+VM534:3 array 5,6,7
+undefined
+var arr = array.splice(0);
+console.log("arr "+arr);
+console.log("array "+array);
+VM537:2 arr 5,6,7
+VM537:3 array
+undefined
+var arr = array.splice(0,0);
+console.log("arr "+arr);
+console.log("array "+array);
+VM538:2 arr
+VM538:3 array
+undefined
+var array = [5,6,7];
+var arr = array.splice(0,0);
+console.log("arr "+arr);
+console.log("array "+array);
+VM541:3 arr
+VM541:4 array 5,6,7
+undefined

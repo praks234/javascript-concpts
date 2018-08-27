@@ -1,0 +1,26 @@
+console.log(typeof undefined);
+VM248:1 undefined
+undefined
+console.log(typeof NaN);
+VM251:1 number
+undefined
+console.log(typeof null);
+VM254:1 object
+undefined
+console.log(undefined === null)
+VM262:1 false
+undefined
+console.log(undefined == null)
+VM264:1 true
+undefined
+console.log(0 == null)
+VM267:1 false
+undefined
+console.log(0 == false)
+VM270:1 true
+undefined
+console.log(1 == true)
+VM273:1 true
+undefined
+console.log(1 === true)
+VM274:1 false
